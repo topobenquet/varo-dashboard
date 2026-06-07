@@ -106,12 +106,11 @@ a:hover{text-decoration:underline}
 </div>
 
 <script>
-// ── BAKED DATA ── Updated: Jun 6, 2026 ──────────────────────
-const UPDATED = "Jun 6, 2026";
+// ── BAKED DATA ── Updated: Jun 7, 2026 ──────────────────────
+const UPDATED = "Jun 7, 2026";
 
 const DATA = {
   instagram: [
-    {date:"2026-05-24",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-25",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-26",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-27",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
@@ -124,10 +123,10 @@ const DATA = {
     {date:"2026-06-03",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-06-04",followers:null,views:135,likes:4,comments:0,shares:1,saves:1,reach:112},
     {date:"2026-06-05",followers:null,views:5,likes:0,comments:0,shares:0,saves:0,reach:5},
-    {date:"2026-06-06",followers:2,views:10,likes:0,comments:0,shares:0,saves:0,reach:10}
+    {date:"2026-06-06",followers:null,views:144,likes:4,comments:0,shares:0,saves:1,reach:124},
+    {date:"2026-06-07",followers:2,views:5,likes:0,comments:0,shares:0,saves:1,reach:4}
   ],
   tiktok: [
-    {date:"2026-05-24",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-25",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-26",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-27",followers:0,views:0,likes:0,comments:0,shares:0},
@@ -140,10 +139,10 @@ const DATA = {
     {date:"2026-06-03",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-06-04",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-06-05",followers:0,views:0,likes:0,comments:0,shares:0},
-    {date:"2026-06-06",followers:0,views:0,likes:0,comments:0,shares:0}
+    {date:"2026-06-06",followers:0,views:0,likes:0,comments:0,shares:0},
+    {date:"2026-06-07",followers:0,views:0,likes:0,comments:0,shares:0}
   ],
   youtube: [
-    {date:"2026-05-24",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-25",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-26",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-27",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
@@ -153,13 +152,13 @@ const DATA = {
     {date:"2026-05-31",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-06-01",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-06-02",followers:11,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-03",followers:11,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-04",followers:11,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-05",followers:11,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-06",followers:11,views:0,likes:0,comments:0,shares:0,minutes:0}
+    {date:"2026-06-03",followers:17,views:0,likes:0,comments:0,shares:0,minutes:0},
+    {date:"2026-06-04",followers:17,views:1,likes:1,comments:1,shares:0,minutes:1},
+    {date:"2026-06-05",followers:17,views:0,likes:0,comments:0,shares:0,minutes:0},
+    {date:"2026-06-06",followers:17,views:0,likes:0,comments:0,shares:0,minutes:0},
+    {date:"2026-06-07",followers:17,views:0,likes:0,comments:0,shares:0,minutes:0}
   ],
   facebook: [
-    {date:"2026-05-24",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-25",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-26",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-27",followers:0,impressions:0,engagements:0,video_views:0},
@@ -172,7 +171,8 @@ const DATA = {
     {date:"2026-06-03",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-06-04",followers:0,impressions:408,engagements:0,video_views:162},
     {date:"2026-06-05",followers:0,impressions:140,engagements:0,video_views:50},
-    {date:"2026-06-06",followers:0,impressions:8,engagements:0,video_views:3}
+    {date:"2026-06-06",followers:0,impressions:11,engagements:0,video_views:4},
+    {date:"2026-06-07",followers:0,impressions:0,engagements:0,video_views:0}
   ]
 };
 
@@ -182,11 +182,11 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/714738507_18102565057863719_8436183938179082679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VyCJac7tMkUQ7kNvwH1XelB&_nc_oc=AdrnAhO9fyI-Xaj0SPHu1lS2BMrZJS0-ik6KmHN_tTbpOXm_Y7TZ5buD0vjKDd_uMao&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8G-4Y9YUd39hRtrTKpfM8w&_nc_tpa=Q5bMBQFBluWV6Mvt_tGZNyB8nU421svUQJhJfzgsV-3hqXYvylCEWit-cRTyqNJ1xWKN5YCgIKM7zyVDiw&oh=00_Af91PILZu8hAbbyOX91t9I7XEnpE4k9-vu7_skqwOtE3Fg&oe=6A29ED7D",
+    thumbnail: "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/714738507_18102565057863719_8436183938179082679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VyCJac7tMkUQ7kNvwH1XelB&_nc_oc=AdrnAhO9fyI-Xaj0SPHu1lS2BMrZJS0-ik6KmHN_tTbpOXm_Y7TZ5buD0vjKDd_uMao&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=yXdp75W-JLGpOx8rLFUq3A&_nc_tpa=Q5bMBQEPfR_xIife1B3OlgkvLsnEZZfyKYKJbZ6NMh24OblSIhcxTfrx5DLEpzivRAq0VlBxqQqCyz-BdQ&oh=00_Af8wY695xy5nT8ohf28jaAiVBr1Yk9en__EcG7Ann4o_wA&oe=6A2B3EFD",
     permalink: "https://www.instagram.com/reel/DZLGR55gDKD/",
     caption: "You're tired because you're fighting battles that aren't yours. The Stoics show you which ones matter.",
-    views: 141,
-    likes: 4,
+    views: 144,
+    likes: 5,
     comments: 0,
     shares: 1,
     saves: 1
@@ -196,14 +196,28 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718538942_18102844060863719_5082482672333855969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-vX9w76f8IwQ7kNvwGMtVsd&_nc_oc=Ado3UGAMLzoikLCxr1xwFpMHzOE-KRypeISg_OYG0UcIVfvGuwCcrcojV0_t-MBrjV4&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=8G-4Y9YUd39hRtrTKpfM8w&_nc_tpa=Q5bMBQHa_BOCdKFpgKDSFJEH3XnbLhVqxhE5CiGv7UMKubY2hsO-aMHBui3Rjs6cGQou3gRkTo_63KD8JA&oh=00_Af-V9V_JVhRi6MdZBLoFIQ3F73aNboXxY1VRXaY65iT8xQ&oe=6A29D2C5",
+    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718538942_18102844060863719_5082482672333855969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-vX9w76f8IwQ7kNvwGMtVsd&_nc_oc=Ado3UGAMLzoikLCxr1xwFpMHzOE-KRypeISg_OYG0UcIVfvGuwCcrcojV0_t-MBrjV4&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=yXdp75W-JLGpOx8rLFUq3A&_nc_tpa=Q5bMBQH9pGJe2wRmXrJ7w5L_qj-kMDyvfOL2EOb7CyDQ-FeRUE0G2d6VbTUvFtqoloJEJraKBeUvaCL9qw&oh=00_Af9yQg8LIdDvor6epMMssz006ygcCY6wgj1Nwh_AJjZnrA&oe=6A2B2445",
     permalink: "https://www.instagram.com/reel/DZN_A6CCL9d/",
     caption: "The untrained mind is a prison. The Stoics knew how to break free.",
-    views: 10,
-    likes: 0,
+    views: 100,
+    likes: 1,
     comments: 0,
     shares: 0,
-    saves: 0
+    saves: 1
+  },
+  {
+    date: "2026-06-06",
+    platform: "Instagram",
+    pill: "pill-ig",
+    color: "#C13584",
+    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718174769_18103038238863719_146508299667538606_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=WfJ2eEBczsgQ7kNvwFS3DpO&_nc_oc=Adp82OVO_4ysgUXVITiYTDJJQZthyOr-xOgAbxLQbpuWTb6MUqkCoioWJ2S2pvwzN54&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=yXdp75W-JLGpOx8rLFUq3A&_nc_tpa=Q5bMBQEmDRmaJZZ3Q_qUbtd_0onFq54XIezdxn5Nof8zYo1t6L85k3fLgWRZ-Jct2cttlkoxDdS6YBSTlA&oh=00_Af9KtX1wL1jthIvEo8p4HI8yqd_L8d7YpNgF1vC2uBlT_Q&oe=6A2B0814",
+    permalink: "https://www.instagram.com/reel/DZP_bygjset/",
+    caption: "Your mind needs permission to rest. The Stoics knew this 2000 years ago.",
+    views: 46,
+    likes: 2,
+    comments: 0,
+    shares: 0,
+    saves: 1
   }
 ];
 
