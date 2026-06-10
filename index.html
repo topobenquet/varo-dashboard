@@ -54,7 +54,7 @@ a:hover{text-decoration:underline}
     <h1>Varo Stone</h1>
     <p id="updated-label">Last 14 days · Updated Jun 4, 2026</p>
   </div>
-  <span class="badge" id="day-badge">Day 2</span>
+  <span class="badge" id="day-badge">Day 7</span>
 </div>
 
 <div class="notice">
@@ -106,12 +106,11 @@ a:hover{text-decoration:underline}
 </div>
 
 <script>
-// ── BAKED DATA ── Updated: Jun 9, 2026 ──────────────────────
-const UPDATED = "Jun 9, 2026";
+// ── BAKED DATA ── Updated: Jun 10, 2026 ──────────────────────
+const UPDATED = "Jun 10, 2026";
 
 const DATA = {
   instagram: [
-    {date:"2026-05-27",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-28",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-29",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
     {date:"2026-05-30",followers:null,views:0,likes:0,comments:0,shares:0,saves:0,reach:0},
@@ -124,10 +123,10 @@ const DATA = {
     {date:"2026-06-06",followers:null,views:144,likes:4,comments:0,shares:0,saves:1,reach:124},
     {date:"2026-06-07",followers:null,views:42,likes:2,comments:0,shares:0,saves:1,reach:31},
     {date:"2026-06-08",followers:null,views:6,likes:0,comments:0,shares:0,saves:0,reach:6},
-    {date:"2026-06-09",followers:2,views:38,likes:2,comments:0,shares:0,saves:1,reach:31}
+    {date:"2026-06-09",followers:null,views:131,likes:2,comments:0,shares:0,saves:1,reach:108},
+    {date:"2026-06-10",followers:2,views:0,likes:0,comments:0,shares:0,saves:0,reach:0}
   ],
   tiktok: [
-    {date:"2026-05-27",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-28",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-29",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-05-30",followers:0,views:0,likes:0,comments:0,shares:0},
@@ -139,11 +138,11 @@ const DATA = {
     {date:"2026-06-05",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-06-06",followers:0,views:0,likes:0,comments:0,shares:0},
     {date:"2026-06-07",followers:1,views:180,likes:6,comments:0,shares:18},
-    {date:"2026-06-08",followers:1,views:0,likes:0,comments:0,shares:0},
-    {date:"2026-06-09",followers:1,views:0,likes:0,comments:0,shares:0}
+    {date:"2026-06-08",followers:1,views:85,likes:3,comments:0,shares:0},
+    {date:"2026-06-09",followers:0,views:0,likes:0,comments:0,shares:0},
+    {date:"2026-06-10",followers:2,views:0,likes:0,comments:0,shares:0}
   ],
   youtube: [
-    {date:"2026-05-27",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-28",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-29",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-05-30",followers:1,views:0,likes:0,comments:0,shares:0,minutes:0},
@@ -153,13 +152,13 @@ const DATA = {
     {date:"2026-06-03",followers:17,views:0,likes:0,comments:0,shares:0,minutes:0},
     {date:"2026-06-04",followers:22,views:1,likes:1,comments:1,shares:0,minutes:1},
     {date:"2026-06-05",followers:24,views:1000,likes:44,comments:0,shares:9,minutes:448},
-    {date:"2026-06-06",followers:24,views:438,likes:17,comments:0,shares:5,minutes:204},
-    {date:"2026-06-07",followers:24,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-08",followers:24,views:0,likes:0,comments:0,shares:0,minutes:0},
-    {date:"2026-06-09",followers:24,views:0,likes:0,comments:0,shares:0,minutes:0}
+    {date:"2026-06-06",followers:26,views:438,likes:17,comments:0,shares:5,minutes:204},
+    {date:"2026-06-07",followers:26,views:492,likes:36,comments:0,shares:10,minutes:214},
+    {date:"2026-06-08",followers:26,views:0,likes:0,comments:0,shares:0,minutes:0},
+    {date:"2026-06-09",followers:26,views:0,likes:0,comments:0,shares:0,minutes:0},
+    {date:"2026-06-10",followers:26,views:0,likes:0,comments:0,shares:0,minutes:0}
   ],
   facebook: [
-    {date:"2026-05-27",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-28",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-29",followers:0,impressions:0,engagements:0,video_views:0},
     {date:"2026-05-30",followers:0,impressions:0,engagements:0,video_views:0},
@@ -171,8 +170,9 @@ const DATA = {
     {date:"2026-06-05",followers:0,impressions:140,engagements:0,video_views:50},
     {date:"2026-06-06",followers:0,impressions:11,engagements:0,video_views:4},
     {date:"2026-06-07",followers:4,impressions:309,engagements:4,video_views:137},
-    {date:"2026-06-08",followers:8,impressions:831,engagements:20,video_views:350},
-    {date:"2026-06-09",followers:8,impressions:61,engagements:0,video_views:32}
+    {date:"2026-06-08",followers:8,impressions:837,engagements:20,video_views:355},
+    {date:"2026-06-09",followers:11,impressions:754,engagements:15,video_views:306},
+    {date:"2026-06-10",followers:11,impressions:1,engagements:0,video_views:0}
   ]
 };
 
@@ -182,7 +182,7 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/714738507_18102565057863719_8436183938179082679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=01rSw7Bry8sQ7kNvwE9hx5X&_nc_oc=Adq6xNmVznzUKL_CAaF0e2GI-jHyAvpfMMSkmRG3bMvESUcWsmMjYg5aa5UtdKOGlew&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=jEdnvcEra1mqZLA916_3PA&_nc_tpa=Q5bMBQHsL7xLbp353AezZAchqh_qRWaNToeyPoBr_ip9LB5C61GqNb10EV2S96EFh8HEZvoIaXj6kHW6cQ&oh=00_Af8zd3rNo_Jmq4eEKWkS3X8M1JqglZ4Qg-VTfCj7SRWqlA&oe=6A2DE1FD",
+    thumbnail: "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/714738507_18102565057863719_8436183938179082679_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=01rSw7Bry8sQ7kNvwE9hx5X&_nc_oc=Adq6xNmVznzUKL_CAaF0e2GI-jHyAvpfMMSkmRG3bMvESUcWsmMjYg5aa5UtdKOGlew&_nc_zt=23&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQFv9lxZepgyDHcsNxuq79qr6Jlb7m6neK0BlRyeElLshv6UHykYTkn9-Vy3rsQxpf3lhlWpaA9zSg&oh=00_Af_7iDOdZWxwwj2R0S7ijzD3FxoREZDuhoDdx5AVLGWeeg&oe=6A2F337D",
     permalink: "https://www.instagram.com/reel/DZLGR55gDKD/",
     caption: "You're tired because you're fighting battles that aren't yours. The Stoics show you which ones matter.",
     views: 144,
@@ -196,7 +196,7 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718538942_18102844060863719_5082482672333855969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MziVI-k4-zkQ7kNvwGP2Vvc&_nc_oc=AdpSusRu7sYA9FjaXY7pEBcnPYaQI6xbGDM0-p86uVFnqX1QuCF7ymbHvrjW3MZYIvE&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=jEdnvcEra1mqZLA916_3PA&_nc_tpa=Q5bMBQHmvZSUqwRP0V0akPLkvEgrQdHZPhQ9pmjHD-SCBFooK2tY1dzfzcHekgzmqrGVSChcVSPmLwiaeA&oh=00_Af-asYmVbyEaZtAoyLIu_6KOX2LnnKiaukRaSD6TC7MLvw&oe=6A2DC745",
+    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718538942_18102844060863719_5082482672333855969_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MziVI-k4-zkQ7kNvwGP2Vvc&_nc_oc=AdpSusRu7sYA9FjaXY7pEBcnPYaQI6xbGDM0-p86uVFnqX1QuCF7ymbHvrjW3MZYIvE&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQEU2mekn7rUjA68vfKcJ7Q6fAYmHuZd5GCU1moTVBoEXy1P0vHV71bc1v8kkbrYMz-KDLf8_2g2Nw&oh=00_Af-NHRVzJD2c2MX6W9IbVHQWrlPPdXfmyt4KrHCmMt0RJg&oe=6A2F18C5",
     permalink: "https://www.instagram.com/reel/DZN_A6CCL9d/",
     caption: "The untrained mind is a prison. The Stoics knew how to break free.",
     views: 100,
@@ -206,11 +206,25 @@ const POSTS = [
     saves: 1
   },
   {
+    date: "2026-06-09",
+    platform: "Instagram",
+    pill: "pill-ig",
+    color: "#C13584",
+    thumbnail: "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/721625462_18103849189863719_765001818197840484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=L9vD7hVs_hkQ7kNvwEo91N_&_nc_oc=AdpQf9tGqocbEDFt-qwV2rLHLxMUNV54A72AO7pL0XQ6PNNpkqyH0Cca-i4gto0Ofx8&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQH18zMoeT6iT01Ng750USYW224P8yqyXTnHP6UnPAzi0XR-xxQtjyDmIKL_VSpzXBrESHOcvfCZ3Q&oh=00_Af-eoK40_Ca4nm2lWTLV3RrF_sg72hWzvQH89YVxo-HWxA&oe=6A2F1666",
+    permalink: "https://www.instagram.com/reel/DZX-S2sj8Hn/",
+    caption: "Your biggest failure isn't your worst moment. It's your best lesson.",
+    views: 83,
+    likes: 0,
+    comments: 0,
+    shares: 0,
+    saves: 0
+  },
+  {
     date: "2026-06-06",
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718174769_18103038238863719_146508299667538606_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=phMXxnTurYAQ7kNvwFFFHkm&_nc_oc=AdoesKU-msJli-KbVA4uKxdnejzgHuIzuRlJYuqV_IADGfYu6ekLr4NEbzUED9p57aM&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=jEdnvcEra1mqZLA916_3PA&_nc_tpa=Q5bMBQF7CdXDzuwxN0pCj1OrXTpaNzr0TEl95jrLqvjbmJ7kvjm6C2faQnXkbY8Hi5UkudrOq4Eu_gO0Hw&oh=00_Af_AnGkphlTkIRVMjh4jy7Y_ZqPFIoVD0-kryKDbOa38tQ&oe=6A2DAB14",
+    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.82787-15/718174769_18103038238863719_146508299667538606_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=phMXxnTurYAQ7kNvwFFFHkm&_nc_oc=AdoesKU-msJli-KbVA4uKxdnejzgHuIzuRlJYuqV_IADGfYu6ekLr4NEbzUED9p57aM&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQEgmhOmD6Qdo5_4bKRUDBPrHdNee5JwMfZV9tKbZ6u8R2Kquc_WjV4XYD2JbRMKqPF_I9oscISCjw&oh=00_Af_I5r3FvxY6hkUdTnrSTSvCYTnE1Y1KTClId0WncH6F8g&oe=6A2EFC94",
     permalink: "https://www.instagram.com/reel/DZP_bygjset/",
     caption: "Your mind needs permission to rest. The Stoics knew this 2000 years ago.",
     views: 79,
@@ -224,10 +238,10 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/721152188_18103621102863719_7302779667197613936_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VRlOye8b6lcQ7kNvwEwDV6K&_nc_oc=Adoo4qGgZ7XQGexxzZ8dRENaGo3_rnhfMil3RZGBd3QtdjKG70Pbn5BslzYGEURIqDw&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=jEdnvcEra1mqZLA916_3PA&_nc_tpa=Q5bMBQFcMB1kIP2ahIeNSFbLYL6E2Is-HLUEl7049k21DMqlqDgm9yg3Ho_6qu7wq-Rkt1PptxcyQtMD3w&oh=00_Af8hnPshQ4gXgcxwm3YBSxYRjI5_NmLB73UTq6BjxBERZg&oe=6A2DDD64",
+    thumbnail: "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/721152188_18103621102863719_7302779667197613936_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=VRlOye8b6lcQ7kNvwEwDV6K&_nc_oc=Adoo4qGgZ7XQGexxzZ8dRENaGo3_rnhfMil3RZGBd3QtdjKG70Pbn5BslzYGEURIqDw&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQF9sCKoqyAq27Dl2s7wtrKF1kFZQ5cwhVuKB1o2tH2WPOa3IrfggIYkZTADT1uaOGzeCed7-PjQFg&oh=00_Af8ooJIpdpTFhsLJUjQ2W_44dmkfQjMVO4xDwD_HVASuYQ&oe=6A2F2EE4",
     permalink: "https://www.instagram.com/reel/DZVpv1RD6d5/",
     caption: "You don't have little time. You're wasting a lot. The Stoics show you how to wake up before it's too late.",
-    views: 35,
+    views: 41,
     likes: 2,
     comments: 0,
     shares: 0,
@@ -238,10 +252,10 @@ const POSTS = [
     platform: "Instagram",
     pill: "pill-ig",
     color: "#C13584",
-    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/719251126_1354964649816716_9078358496690159241_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=HHaDLiw60a4Q7kNvwHStw8u&_nc_oc=AdpJgnezWaTE6glN1vYmReAtb1zGQlJt19BK7FTA82Yc_BdAMnCor7LfvOvQgc6CdDs&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=jEdnvcEra1mqZLA916_3PA&_nc_tpa=Q5bMBQFwLsZVsfNmAFHOSGCoThpK8vSA4DxkB8GniMVG1IDwWycN3YtKp0WChtuglontr-Wq9k4MdzsV-Q&oh=00_Af-1Ed4GwpHult_n_ENm8bZI957k8PU2Umt2iEUC0vYHzg&oe=6A2DDA58",
+    thumbnail: "https://scontent-fra5-2.cdninstagram.com/v/t51.71878-15/719251126_1354964649816716_9078358496690159241_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=HHaDLiw60a4Q7kNvwHStw8u&_nc_oc=AdpJgnezWaTE6glN1vYmReAtb1zGQlJt19BK7FTA82Yc_BdAMnCor7LfvOvQgc6CdDs&_nc_zt=23&_nc_ht=scontent-fra5-2.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=iPP7Cm7kKhq-F8_fRDCk8g&_nc_tpa=Q5bMBQFG_i6tV6C1Q1i6k3dZ9LoKlPM2vvg_ZWoUA8Ue4kFCAv6uWBxgAbbS6JpvYt4boA1v6TW1mn07GQ&oh=00_Af9AaObii0H_RZTMO9ZIyXphg7ajzKvXWbobmSbY9f66dQ&oe=6A2F2BD8",
     permalink: "https://www.instagram.com/reel/DZSyXOtletk/",
     caption: "Emptiness isn't filled with more. It's filled with meaning. The Stoics show you how to find it.",
-    views: 14,
+    views: 18,
     likes: 1,
     comments: 0,
     shares: 0,
